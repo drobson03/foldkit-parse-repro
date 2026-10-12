@@ -1,0 +1,15 @@
+{
+  "name": "foldkit-ssr-parse-repro",
+  "version": "1.0.0",
+  "scripts": {
+    "repro": "node --import ./src/count-parse5.mjs src/repro.mjs",
+    "profile": "node --cpu-prof --cpu-prof-dir=prof src/repro.mjs"
+  },
+  "type": "module",
+  "dependencies": {
+    "@effect/platform-browser": "4.0.0",
+    "effect": "4.0.0",
+    "foldkit": "0.167.0"
+  },
+  "private": true
+}
